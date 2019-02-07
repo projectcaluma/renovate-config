@@ -20,6 +20,8 @@
         "allowedVersions": "9.6-alpine"
       }
     ],
-    "pinDigests": true
+    "pinDigests": true,
+    "automerge": true,
+    "automergeType": "branch"
   }
 }

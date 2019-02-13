@@ -22,7 +22,6 @@
     ],
     "pinDigests": true,
     "automergeType": "branch",
-    "automerge": true,
-    "requiredStatusChecks": ["Travis+CI+-+Pull+Request"]
+    "automerge": true
   }
 }

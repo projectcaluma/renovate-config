@@ -1,5 +1,6 @@
 {
   "extends": ["config:base"],
+  "prCreation": "not-pending",
   "pip_requirements": {
     "fileMatch": ["requirements.*txt$"],
     "packageRules": [
@@ -20,9 +21,6 @@
         "allowedVersions": "9.6-alpine"
       }
     ],
-    "pinDigests": true,
-    "automergeType": "branch",
-    "automerge": true,
-    "requiredStatusChecks": ["Travis CI - Branch"]
+    "pinDigests": true
   }
 }

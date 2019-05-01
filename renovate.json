@@ -1,6 +1,8 @@
 {
   "extends": ["config:base"],
   "prCreation": "not-pending",
+  "timezone": "Europe/Zurich",
+  "schedule": "nonOfficeHours",
   "pip_requirements": {
     "fileMatch": ["requirements.*txt$"],
     "packageRules": [

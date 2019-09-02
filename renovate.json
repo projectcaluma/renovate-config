@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", "schedule:nonOfficeHours"],
+  "extends": ["config:base", "schedule:nonOfficeHours", ":semanticCommits"],
   "prCreation": "not-pending",
   "timezone": "Europe/Zurich",
   "pip_requirements": {
